@@ -18,7 +18,7 @@
 #define LED_RED PB0     // Off-board LED
 #define SHORT_DELAY 250 // Delay in milliseconds
 #ifndef F_CPU
-# define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
+#define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
 #endif
 
 
@@ -47,12 +47,32 @@ int main(void)
 {
     uint8_t led_value = 0;  // Local variable to keep LED status
 
+    //DDRB = DDRB | (1<<LED_GREEN);
+    //DDRB = DDRB | (1<<LED_RED);
     // Set pins where LEDs are connected as output
     // Ver 1: Arduino style
     //pinMode(LED_GREEN, OUTPUT);
     //pinMode(LED_RED, OUTPUT);
 
-   
+    GPIO_mode_output(&DDRB, LED_GREEN);
+    GPIO_mode_output(&DDRB, LED_RED);
+
+while(1)
+    {
+      if (led_value == 0)
+      {
+        GPIO_write_high(&PORTB, LED_GREEN); 
+        GPIO_write_high(&PORTB, LED_RED);
+        delay(150);
+        GPIO_write_low(&PORTB, LED_GREEN);
+        GPIO_write_low(&PORTB, LED_RED);  // Set output low in PORTB reg
+        delay(150);
+      }
+    }
+
+
+
+   /*
   
     // Ver 2: Low-level (register) style
     DDRB = DDRB | (1<<LED_GREEN);
@@ -85,7 +105,7 @@ int main(void)
             PORTB &= ~(1<<LED_RED);
         }
     }
-
+*/
     // Will never reach this
     return 0;
 }
