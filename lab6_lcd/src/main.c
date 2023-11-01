@@ -1,3 +1,7 @@
+// https://github.com/Sylaina/oled-display
+
+
+
 /***********************************************************************
  * 
  * The I2C (TWI) bus scanner tests all addresses and detects devices
@@ -25,6 +29,7 @@
 #include <twi.h>            // I2C/TWI library for AVR-GCC
 #include <uart.h>           // Peter Fleury's UART library
 #include <stdlib.h>         // C library. Needed for number conversions
+#include <oled.h>
 
 
 /* Global variables --------------------------------------------------*/
@@ -102,22 +107,35 @@ int main(void)
     // Infinite loop
     while (1) {
         if (new_sensor_data == 1) {
+            oled_init(OLED_DISP_ON);
+            
+            
             itoa(dht12.temp_int, string, 10);
-            uart_puts(string);
-            uart_puts(".");
+            oled_gotoxy(0, 1);
+            oled_puts(string);
+            oled_puts(".");
             itoa(dht12.temp_dec, string, 10);
-            uart_puts(string);
-            uart_puts(" °C\r\n");
+            oled_gotoxy(0, 2);
+            oled_puts(string);
+            oled_puts(" °C\r\n");
 
             itoa(dht12.hum_int, string, 10);
-            uart_puts(string);
-            uart_puts(".");
+            oled_gotoxy(0, 3);
+            oled_puts(string);
+            oled_puts(".");
             itoa(dht12.hum_dec, string, 10);
-            uart_puts(string);
-            uart_puts(" %\r\n");
-            uart_puts("\r\n");
+            oled_gotoxy(0, 4);
+            oled_puts(string);
+            oled_puts(" %\r\n");
+            oled_puts("\r\n");
 
             new_sensor_data = 0;
+            
+          
+
+        
+        
+        
         }
     }
 
@@ -164,6 +182,38 @@ ISR(TIMER1_OVF_vect)
         new_sensor_data = 1;
     }
     twi_stop();
-
+}
 
 /* Interrupt service routines ----------------------------------------*/
+/*
+int main(void)
+{
+    oled_init(OLED_DISP_ON);
+    oled_clrscr();
+
+    oled_charMode(DOUBLESIZE);
+    oled_puts("Nigga");
+
+    oled_charMode(NORMALSIZE);
+
+    // oled_gotoxy(x, y)
+    oled_gotoxy(0, 2);
+    oled_puts("128x64, SHIT");
+
+    // oled_drawLine(x1, y1, x2, y2, color)
+    oled_drawLine(0, 25, 120, 25, WHITE);
+
+    oled_gotoxy(0, 4);
+    oled_puts("Smrt americe!!!");
+
+    // Copy buffer to display RAM
+    oled_display();
+
+    while (1) {
+        ;
+    }
+
+    return 0;
+}
+
+*/
