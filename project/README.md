@@ -4,6 +4,7 @@
 
 * Lukáš Faltys
 * Lukáš Jílek
+* 
 
 ## Teoretický popis a funkčnost
 
