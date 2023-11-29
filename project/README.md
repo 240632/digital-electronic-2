@@ -9,19 +9,19 @@
 
 ## Teoretický popis a funkčnost
 
-V tomto projektu jsme vytvořili starou dobrou známou hru Snake. 
+Náplní tohoto projektu bylo vytvořit arkádovou hru naprogramovanou v jazyce C. V tomto projektu jsme vytvořili starou dobrou známou hru "Snake". 
 
 ## Popis hardwaru
 
 Jako řídící jednotku jsme použili Arduino UNO. 
-Pro ovládací prvky jsme zvolili 4 tlačítka a jako zobrazovací zařízení byl požit oled display.
+Pro ovládání jsme zvolili 4 tlačítka a jako zobrazovací zařízení byl požit oled display.
 
 
 ## Popis softwaru
 
 
 ### Odkazy na soubory: 
-
+https://github.com/LukasFaltys/digital-electronics-2/tree/main/snake_V2/DE2_SNAKE
 
 
 ## Instrukce pro použití
