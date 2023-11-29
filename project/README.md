@@ -2,9 +2,9 @@
 
 ## Členové teamu "Sufurki"
 
+* Egorov Gleb    
 * Lukáš Faltys
 * Lukáš Jílek
-* Egorov Gleb
 * Tomáš Kopřiva
 
 ## Teoretický popis a funkčnost
@@ -13,19 +13,26 @@ V tomto projektu jsme vytvořili starou dobrou známou hru Snake.
 
 ## Popis hardwaru
 
-Jako řídící jednotuku jsme použili Arduino UNO. Pro ovládací prvky jsme zvolili 4 tlačítka a jako zobrazovací zařízení byl požit oled display.
+Jako řídící jednotku jsme použili Arduino UNO. 
+Pro ovládací prvky jsme zvolili 4 tlačítka a jako zobrazovací zařízení byl požit oled display.
 
 
 ## Popis softwaru
 
 
 ### Odkazy na soubory: 
-69
+
 
 
 ## Instrukce pro použití
 
-Snake je ovládám pomocí čudlíků znázorněných na fotce:
+Zapojení spočívá v osazení tlačítek vedle sebe, pro představu si je pojmenujme tlačítko 1, tlačítko 2, 3 a 4.
+Tlačítko 1: směr vlevo
+Tlačítko 2: směr nahoru
+Tlačítko 3: směr dolů
+Tlačítko 4: směr vpravo
+
+![image](https://github.com/240632/digital-electronic-2/assets/124742212/008ebd82-aaef-47f8-ae72-f50be94dd445)
 
 
 ## Instruktážní video
