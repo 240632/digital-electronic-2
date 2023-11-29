@@ -22,7 +22,7 @@ Displej OLED I2C 128x64 je malý a výkonný displej, který využívá technolo
 
 ### Ovládací prvky
 Jako ovládací prvky byli použity klasická tlačítka. Tlačítka jsou základními prvky interakce v elektronických zařízeních. Jedná se o malé spínače, které mohou být stisknuty nebo uvolněny, čímž spouští různé funkce.
-.
+                                    
 ![image](https://github.com/240632/digital-electronic-2/assets/124742212/ed933b23-3d57-4d85-a429-439a532490bc)
 
 
