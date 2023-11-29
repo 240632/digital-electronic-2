@@ -1,38 +1,32 @@
-# Projekt VHDL : Vysílač a příjmač Morseovy abecedy
+# Projekt C : Arcade game - SNAKE
 
 ## Členové teamu "Sufurki"
 
 * Lukáš Faltys
 * Lukáš Jílek
-* 
+* Egorov Gleb
+* Tomáš Kopřiva
 
 ## Teoretický popis a funkčnost
 
-69
+V tomto projektu jsme vytvořili starou dobrou známou hru Snake. 
 
 ## Popis hardwaru
 
-69
-
-
-
-
-69
+Jako řídící jednotuku jsme použili Arduino UNO. Pro ovládací prvky jsme zvolili 4 tlačítka a jako zobrazovací zařízení byl požit oled display.
 
 
 ## Popis softwaru
 
-69
+
 ### Odkazy na soubory: 
 69
 
-## Simulace
-
-69
 
 ## Instrukce pro použití
 
-69
+Snake je ovládám pomocí čudlíků znázorněných na fotce:
+
 
 ## Instruktážní video
-69
+
