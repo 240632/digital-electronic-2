@@ -47,4 +47,6 @@ Viz. obrázek (Celý funkčnost potom je zobrazena ve videu)
 
 
 ## Instruktážní video
+https://youtu.be/Zxg_YpIdybA
+
 
