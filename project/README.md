@@ -7,7 +7,7 @@
 * Lukáš Jílek
 * Tomáš Kopřiva
 
-## Teoretický popis a funkčnost
+# Teoretický popis a funkčnost
 
 Náplní tohoto projektu bylo vytvořit arkádovou hru naprogramovanou v jazyce C. V tomto projektu jsme vytvořili starou dobrou známou hru "Snake". 
 
