@@ -2,7 +2,7 @@
 
 ## Členové teamu "Sufurki"
 
-* Egorov Gleb    
+* Gleb Egorov     
 * Lukáš Faltys
 * Lukáš Jílek
 * Tomáš Kopřiva
