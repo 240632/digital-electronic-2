@@ -29,7 +29,8 @@ Jako ovládací prvky byli použity klasická tlačítka. Tlačítka jsou zákla
 
 ## Popis softwaru
 
-![Snake diagram](https://github.com/240632/digital-electronic-2/assets/124742212/14196b2e-7398-49d4-89be-766888ef14c1)
+![Snake diagram](https://github.com/240632/digital-electronic-2/assets/124742212/b85febf8-813f-431b-9644-85e8708c318c)
+
 
 
 Při začátku cyklu program zkontroluje vektor směru (prvotní směr je do prava). Pokud se nic nezmění (není změčknuté tlačítko), tak se snake pohybuje +1 daným směrem. Pokud během cyklu program zaznamená zmáčknutí tlačítka tak se změní vektor směru +1 (nebo -1) požadovaným směrem. Během jednoho cyklu program také hlídá jestli se snake nedotkne hrany nebo sám sebe, to znamená prohru. Pokud se snake dostane na pozici jablka tak program provede +1 k délce "snejka". Přidaý blok "snejka" se pohybuje za hlavním blokem a kopíruje jeho cestu.Jídlo je generováno random pozicí. 
