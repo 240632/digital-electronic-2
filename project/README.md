@@ -25,6 +25,8 @@ Jako ovládací prvky byli použity klasická tlačítka. Tlačítka jsou zákla
                                     
 ![image](https://github.com/240632/digital-electronic-2/assets/124742212/ed933b23-3d57-4d85-a429-439a532490bc)
 
+### Schéma zapojení
+![406933259_1738599446563687_7867908720918164180_n](https://github.com/240632/digital-electronic-2/assets/124742212/c7853f52-0dcf-4f0b-ad0a-f986c1017984)
 
 
 ## Popis softwaru
