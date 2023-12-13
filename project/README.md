@@ -1,6 +1,6 @@
 # Projekt C : Arcade game - SNAKE
 
-## Členové teamu "Sufurki"
+## Členové teamu
 
 * Gleb Egorov     
 * Lukáš Faltys
@@ -9,7 +9,8 @@
 
 # Teoretický popis a funkčnost
 
-Náplní tohoto projektu bylo vytvořit arkádovou hru naprogramovanou v jazyce C. V tomto projektu jsme vytvořili starou dobrou známou hru "Snake". 
+Náplní tohoto projektu bylo vytvořit arkádovou hru naprogramovanou v jazyce C. Použít jsme mohli Arduino UNO, OLED display, různá tlačítka a bez použití Arduino knihovny. 
+V tomto projektu jsme vytvořili starou dobrou známou hru "Snake". 
 
 ## Popis hardwaru
 ### Arduino UNO
